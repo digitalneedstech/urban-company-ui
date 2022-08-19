@@ -61,7 +61,7 @@ export default function Form() {
                       onChange={onSelectorChange}
                       value="company"
                     />
-                    <label for="client1" className="radio-label">
+                    <label htmlFor="client1" className="radio-label">
                       Register as a company
                     </label>
                   </div>
@@ -77,7 +77,7 @@ export default function Form() {
                       onChange={onSelectorChange}
                       value="individual"
                     />
-                    <label for="client2" className="radio-label">
+                    <label htmlFor="client2" className="radio-label">
                       Register as an individual
                     </label>
                   </div>

@@ -11,11 +11,11 @@ export default function ProfileImage(props) {
   const { onFinishSetup } = props;
   return (
     <>
-      <section class="client-profile">
-        <div class="container">
-          <div class="row pt-4">
-            <div class="col-md-8 mt-2 pt-5 mt-sm-5">
-              <div class="client-profilehead">
+      <section className="client-profile">
+        <div className="container">
+          <div className="row pt-4">
+            <div className="col-md-8 mt-2 pt-5 mt-sm-5">
+              <div className="client-profilehead">
                 {isCompanyPath ? (
                   <>
                     <h1>company logo</h1>
@@ -30,36 +30,36 @@ export default function ProfileImage(props) {
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               {isCompanyPath ? (
                 <Image src={CompanyWelcome} alt="" />
               ) : (
                 <Image src={Welcome} alt="" />
               )}
             </div>
-            <div class="col-md-6">
-              <div class="row justify-content-center">
-                <div class="col-md-10">
-                  <label htmlFor="#" class="profile-label">
+            <div className="col-md-6">
+              <div className="row justify-content-center">
+                <div className="col-md-10">
+                  <label htmlFor="#" className="profile-label">
                     Upload / browse profile image
                   </label>
-                  <div class="">
+                  <div className="">
                     <input
                       type="email"
-                      class="form-control login-input profile-inpt"
+                      className="form-control login-input profile-inpt"
                       placeholder="Click to browse"
                     />
-                    <div class="upload-btn-wrapper">
-                      <button class="uploadBtn">BROWSE</button>
+                    <div className="upload-btn-wrapper">
+                      <button className="uploadBtn">BROWSE</button>
                       <input type="file" />
                     </div>
                   </div>
 
-                  <div class="border-bottom"></div>
-                  <div class="profile-content">
-                    <div class="row mt-3 mt-sm-4">
-                      <div class="col-md-12">
+                  <div className="border-bottom"></div>
+                  <div className="profile-content">
+                    <div className="row mt-3 mt-sm-4">
+                      <div className="col-md-12">
                         <h1>Profile image tips</h1>
                         <ul>
                           <li>
@@ -81,11 +81,11 @@ export default function ProfileImage(props) {
                       </div>
                     </div>
                   </div>
-                  <div class="row mt-2 mb-4">
-                    <div class="col-md-12">
+                  <div className="row mt-2 mb-4">
+                    <div className="col-md-12">
                       <button
                         type="button"
-                        class="btn btn-login"
+                        className="btn btn-login"
                         onClick={onFinishSetup}
                       >
                         FINISH ACCOUNT SETUP

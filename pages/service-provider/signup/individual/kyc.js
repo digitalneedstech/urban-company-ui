@@ -47,7 +47,7 @@ export default function KYC() {
 
             <div className="col-md-6">
               <div className="form-group">
-                <label for="#" className="profile-label">
+                <label htmlFor="#" className="profile-label">
                   Full name
                 </label>
                 <input
@@ -58,7 +58,7 @@ export default function KYC() {
               </div>
 
               <div className="form-group">
-                <label for="#" className="profile-label">
+                <label htmlFor="#" className="profile-label">
                   Describe about you
                 </label>
                 <textarea
@@ -69,7 +69,7 @@ export default function KYC() {
               </div>
 
               <div className="">
-                <label for="#" className="profile-label">
+                <label htmlFor="#" className="profile-label">
                   Upload / browse profile image
                 </label>
                 <input
@@ -106,7 +106,7 @@ export default function KYC() {
             <div className="col-md-3"></div>
             <div className="col-md-6">
               <div className="form-group">
-                <label for="#" className="profile-label">
+                <label htmlFor="#" className="profile-label">
                   Basic details
                 </label>
                 <input
@@ -123,7 +123,7 @@ export default function KYC() {
                 />
               </div>
 
-              <label for="#" className="profile-label">
+              <label htmlFor="#" className="profile-label">
                 Documents
               </label>
 

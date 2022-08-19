@@ -61,7 +61,7 @@ export default function Signup() {
                             onChange={onSelectorChange}
                             value="onsite"
                           />
-                          <label for="client1"></label>
+                          <label htmlFor="client1"></label>
                         </div>
                       </div>
                     </div>
@@ -93,7 +93,7 @@ export default function Signup() {
                             onChange={onSelectorChange}
                             value="offsite"
                           />
-                          <label for="client2"></label>
+                          <label htmlFor="client2"></label>
                         </div>
                       </div>
                     </div>

@@ -55,7 +55,7 @@ export default function Home() {
                             name="client-selector"
                             id="client1"
                           />
-                          <label for="client1"></label>
+                          <label htmlFor="client1"></label>
                         </div>
                       </div>
                     </div>
@@ -83,7 +83,7 @@ export default function Home() {
                             name="client-selector"
                             id="client2"
                           />
-                          <label for="client2"></label>
+                          <label htmlFor="client2"></label>
                         </div>
                       </div>
                     </div>

@@ -59,7 +59,7 @@ export default function SignupForm() {
         <div className="col-md-5">
           <div className="form-group">
             <input className="filled-in" type="checkbox" value="" id="Check" />
-            <label className=" checkFrom-label" for="Check">
+            <label className=" checkFrom-label" htmlFor="Check">
               Yes, I understand and agree to the Protocall Terms of Service,
               including the User Agreement and Privacy Policy .
             </label>

@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: { images: { allowFutureImage: true } },
+  experimental: { images: { allowFutureImage: true, unoptimized: true } },
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.plugins.push(
       new webpack.ProvidePlugin({
