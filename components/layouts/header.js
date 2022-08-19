@@ -1,7 +1,8 @@
 import * as React from "react";
+import { prefix } from "../../utils/prefix";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../images/Logo.svg";
+import Logo from "/images/Logo.svg";
 
 export default function Header() {
   return (
@@ -11,7 +12,7 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-md-3 col-5 moblogo">
               <Link href="/">
-                <Image src={Logo} alt="" />
+                <Image src={`${prefix}${Logo}`} alt="" />
               </Link>
             </div>
             <div className="col-md-9 col-7">
