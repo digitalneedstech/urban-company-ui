@@ -9,9 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
     "next": "12.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-owl-carousel": "^2.3.3"
   },
   "devDependencies": {
     "eslint": "8.21.0",
